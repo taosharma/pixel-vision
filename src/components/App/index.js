@@ -29,7 +29,7 @@ const star = {
   position: 2,
   className: css.star,
   background: css.episodes,
-  area: css.topRight
+  area: css.bottomLeft
 };
 const rupee = {
   src: svgRupee,
@@ -37,7 +37,7 @@ const rupee = {
   position: 3,
   className: css.rupee,
   background: css.patreon,
-  area: css.bottomLeft
+  area: css.topRight
 };
 const potion = {
   src: svgPotion,
@@ -111,7 +111,7 @@ function App() {
         ""
       )}
       <section
-        className={centerIcon.area + " " + centerIcon.sideColour}
+        className={centerIcon.background + " " + centerIcon.area}
       ></section>
       {/* <section className={css.header}>
         <h1 className={css.title}>Pixel Vision</h1>
