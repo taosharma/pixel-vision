@@ -1,0 +1,8 @@
+.Monocle {
+  place-self: center;
+  display: grid;
+  grid-area: content;
+  padding-top: 26%;
+  padding-left: 8%;
+  z-index: 1;
+}

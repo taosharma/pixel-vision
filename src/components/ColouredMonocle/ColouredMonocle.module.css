@@ -1,0 +1,12 @@
+.center {
+  place-self: center;
+  display: grid;
+  grid-area: content;
+  z-index: 1;
+  height: 15%;
+  transition: 0.5s;
+}
+
+.center:hover {
+  height: 50%;
+}

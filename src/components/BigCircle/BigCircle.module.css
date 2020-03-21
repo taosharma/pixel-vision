@@ -1,0 +1,12 @@
+.BigCircle {
+  place-self: center;
+  display: grid;
+  grid-area: content;
+  background-image: radial-gradient(#fde5cf, #fdd2ac, #fcbf88);
+  position: relative;
+  border-radius: 50%;
+  width: 65%;
+  height: auto;
+  padding-top: 65%;
+  z-index: 0;
+}

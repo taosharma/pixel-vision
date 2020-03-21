@@ -1,0 +1,10 @@
+.icon {
+  display: grid;
+  place-self: center;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.icon:hover {
+  height: 40%;
+}
