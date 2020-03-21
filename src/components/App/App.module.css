@@ -3,10 +3,10 @@
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 25vh 25vh 25vh 25vh;
   grid-template-areas:
-    "header header header top first first"
-    "left left content content second second"
-    "left left content content third third"
-    "bottom bottom bottom down fourth fourth";
+    "first first header header third third"
+    "first first content content third third"
+    "second second content content fourth fourth"
+    "second second footer footer fourth fourth";
   min-height: 100vh;
   min-width: auto;
   place-content: center;
@@ -22,23 +22,19 @@
 }
 
 .star {
-  height: 30%;
+  height: 20%;
 }
 
 .rupee {
-  height: 35%;
-}
-
-.treasure {
-  height: 30%;
+  height: 25%;
 }
 
 .potion {
-  height: 35%;
+  height: 25%;
 }
 
 .spaceship {
-  height: 35%;
+  height: 25%;
 }
 
 .first {
@@ -60,26 +56,41 @@
 
 .episodes {
   background-color: #c05b78;
-  border-right: 10pt solid black;
 }
 
 .patreon {
   background-color: #499f68;
-  border-right: 10pt solid black;
 }
-
-/* .about {
-  grid-area: 3 / 4 / 5 / 7;
-  background-color: #577590;
-  border-right: 10pt solid black;
-} */
 
 .contact {
   background-color: #f6e56d;
-  border-right: 10pt solid black;
 }
 
-.header {
+/* .topLeft {
+  grid-area: 1 / 1 / 3 / 4;
+  border-right: 10pt solid black;
+  border-bottom: 10pt solid black;
+}
+
+.topRight {
+  grid-area: 1 / 4 / 3 / 7;
+  border-left: 10pt solid black;
+  border-bottom: 10pt solid black;
+}
+
+.bottomLeft {
+  grid-area: 3 / 1 / 5 / 4;
+  border-right: 10pt solid black;
+  border-top: 10pt solid black;
+}
+
+.bottomRight {
+  grid-area: 3 / 4 / 5 / 7;
+  border-left: 10pt solid black;
+  border-top: 10pt solid black;
+} */
+
+.title {
   font-family: "Open Sans", sans-serif;
   font-size: 2.2em;
   padding: 0em;
@@ -97,28 +108,4 @@
   grid-area: bottom;
   place-self: center;
   overflow: hidden;
-}
-
-.topLeft {
-  grid-area: 1 / 1 / 3 / 4;
-  border-right: 10pt solid black;
-  border-bottom: 10pt solid black;
-}
-
-.topRight {
-  grid-area: 3 / 1 / 5 / 4;
-  border-left: 10pt solid black;
-  border-bottom: 10pt solid black;
-}
-
-.bottomLeft {
-  grid-area: 1 / 4 / 3 / 7;
-  border-right: 10pt solid black;
-  border-top: 10pt solid black;
-}
-
-.bottomRight {
-  grid-area: 3 / 4 / 5 / 7;
-  border-left: 10pt solid black;
-  border-top: 10pt solid black;
 }
